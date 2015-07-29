@@ -6,8 +6,11 @@
 		<div ng-controller="myCtrl">
 			{{helloWorld}}
 		<ul>
-			<li ng-repeat="item in collection">Number: {{item}}</li>
+			<li ng-repeat="user in users">{{item}}</li>
+			<h1>{{user.name}}</h1>
+			<h3>{{user.age}}</h3>
 		</ul>
+		<button ng-click="hello()">Hello</button>
 		</div>
 	
 	
