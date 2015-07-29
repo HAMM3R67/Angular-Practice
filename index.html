@@ -6,7 +6,7 @@
 		<div ng-controller="myCtrl">
 			{{helloWorld}}
 		<ul>
-			<li ng-repeat="user in users">{{item}}</li>
+			<li ng-repeat="user in users" ng-click= "alerter">{{item}}</li>
 			<h1>{{user.name}}</h1>
 			<h3>{{user.age}}</h3>
 		</ul>

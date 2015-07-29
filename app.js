@@ -13,7 +13,7 @@ angular.module('App', [])
 		age: 28	
 		}];
 		
-		$scope.alerter= function (){
-			
-		}
+		$scope.alerter = function (input){
+			alert(input);
+		};
 });
