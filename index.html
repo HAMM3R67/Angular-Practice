@@ -2,11 +2,13 @@
 	<head>
 		
 	</head>
-	<body>
-		
-	
-	
-	
+	<body ng-app="App">
+		<div ng-controller="myCtrl">
+			{{helloWorld}}
+		<ul>
+			<li ng-repeat="item in collection">Number: {{item}}</li>
+		</ul>
+		</div>
 	
 	
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.3/angular.js"></script>
